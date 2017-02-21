@@ -1,0 +1,32 @@
+﻿<table class="table table-striped">
+    <tr>
+        <th>
+            Lp
+        </th>
+        <th>
+            Name of spend
+        </th>
+        <th>
+            Kind of spend
+        </th>
+        <th>
+            Subkind of spend
+        </th>
+        <th>
+            Amount of spend
+        </th>
+        
+    </tr>
+    @{for (int i = 0; i < 10; i++)
+        {
+            <tr>
+                <td>@i</td>
+                <td>Name @i</td>
+                <td>Kind @i</td>
+                <td>SubKind @(i*10)</td>
+                <td>@(i * 10 * 5 - 89 / 2 * 5)</td>
+  
+              </tr>
+        }
+    }
+    </table>
