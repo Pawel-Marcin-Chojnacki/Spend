@@ -3,3 +3,10 @@
 ################################################################################
 
 *.suo
+/Spend.Tests/obj/Debug
+*.user
+/Spend/obj/Debug
+/Spend/bin
+/packages/Newtonsoft.Json.6.0.4
+/packages/Owin.1.0
+/packages
